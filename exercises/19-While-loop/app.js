@@ -2,11 +2,11 @@
 //fix this function:
 function startCounting()
 {
-	var counter = 100;
+	var counter = 0;
 	while(counter <= 100)
 	{
-		counter --;
-		console.log(counter);
+        console.log(counter);
+        counter = counter + 1
 	}
 	
 	return counter;
